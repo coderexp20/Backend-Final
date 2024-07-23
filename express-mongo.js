@@ -4,7 +4,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const empc = require("./models/model");
 const URL =
-  "mongodb+srv://adminadmin:123@cluster0.q8yp2ef.mongodb.net/gfgdb?retryWrites=true&w=majority&appName=Cluster0var app = express()";
+  "mongodb+srv://adminadmin:123@cluster0.q8yp2ef.mongodb.net/gfgdb?retryWrites=true&w=majority&appName=Cluster0";
 var app = express();
 app.use(cors());
 app.use(bp.json());
